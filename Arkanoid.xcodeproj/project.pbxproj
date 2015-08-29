@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		443FE3631A3260EF00E9671A /* fon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 443FE3621A3260EF00E9671A /* fon.mp3 */; };
+		445C897F1A30A7290025EA80 /* assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 445C89791A30A7290025EA80 /* assets.atlas */; };
+		445C89801A30A7290025EA80 /* bg@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 445C897B1A30A7290025EA80 /* bg@2x~ipad.png */; };
+		445C89811A30A7290025EA80 /* bg@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 445C897C1A30A7290025EA80 /* bg@2x~iphone.png */; };
+		445C89821A30A7290025EA80 /* bg~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 445C897D1A30A7290025EA80 /* bg~ipad.png */; };
+		445C89831A30A7290025EA80 /* bg~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 445C897E1A30A7290025EA80 /* bg~iphone.png */; };
+		44BB52801A32082C0095541D /* paddleRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB527F1A32082C0095541D /* paddleRed.png */; };
+		44BB52821A32083A0095541D /* rectRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB52811A32083A0095541D /* rectRed.png */; };
+		44BB52841A3208450095541D /* ballBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB52831A3208450095541D /* ballBlue.png */; };
+		44BB528A1A3208E00095541D /* paddleBlu.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB52851A3208E00095541D /* paddleBlu.png */; };
+		44BB528B1A3208E00095541D /* rectBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB52861A3208E00095541D /* rectBlue.png */; };
+		44BB528C1A3208E00095541D /* rectGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB52871A3208E00095541D /* rectGreen.png */; };
+		44BB528D1A3208E00095541D /* rectPurp.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB52881A3208E00095541D /* rectPurp.png */; };
+		44BB528E1A3208E00095541D /* rectYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB52891A3208E00095541D /* rectYellow.png */; };
+		44BB52901A320C230095541D /* backgnd6.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB528F1A320C230095541D /* backgnd6.png */; };
+		44BB52921A320CD00095541D /* backgnd3.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB52911A320CD00095541D /* backgnd3.png */; };
+		44BB52961A320D2E0095541D /* backgnd2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB52931A320D2E0095541D /* backgnd2.png */; };
+		44BB52971A320D2E0095541D /* backgnd4.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB52941A320D2E0095541D /* backgnd4.png */; };
+		44BB52981A320D2E0095541D /* backgnd5.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB52951A320D2E0095541D /* backgnd5.png */; };
+		44BB52A01A3223DB0095541D /* mback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44BB529F1A3223DB0095541D /* mback.jpg */; };
+		44F058171B92083500D4A440 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F058051B92083500D4A440 /* AppDelegate.swift */; };
+		44F058181B92083500D4A440 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F058071B92083500D4A440 /* LaunchScreen.xib */; };
+		44F058191B92083500D4A440 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F058091B92083500D4A440 /* Main.storyboard */; };
+		44F0581A1B92083500D4A440 /* ChooseLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F0580B1B92083500D4A440 /* ChooseLevelScene.swift */; };
+		44F0581B1B92083500D4A440 /* FirstLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F0580C1B92083500D4A440 /* FirstLevelScene.swift */; };
+		44F0581C1B92083500D4A440 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 44F0580D1B92083500D4A440 /* GameScene.sks */; };
+		44F0581D1B92083500D4A440 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F0580E1B92083500D4A440 /* GameScene.swift */; };
+		44F0581E1B92083500D4A440 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F0580F1B92083500D4A440 /* GameViewController.swift */; };
+		44F0581F1B92083500D4A440 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F058101B92083500D4A440 /* Images.xcassets */; };
+		44F058201B92083500D4A440 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44F058111B92083500D4A440 /* Info.plist */; };
+		44F058211B92083500D4A440 /* SecondLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F058121B92083500D4A440 /* SecondLevelScene.swift */; };
+		44F058221B92083500D4A440 /* SKEndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F058131B92083500D4A440 /* SKEndScene.swift */; };
+		44F058231B92083500D4A440 /* TemplateLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F058141B92083500D4A440 /* TemplateLevelScene.swift */; };
+		44F058241B92083500D4A440 /* TransToFirstLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F058151B92083500D4A440 /* TransToFirstLevel.swift */; };
+		44F058251B92083500D4A440 /* TransToSecondLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F058161B92083500D4A440 /* TransToSecondLevel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		445C89691A30A7140025EA80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445C89471A30A7140025EA80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 445C894E1A30A7140025EA80;
+			remoteInfo = arctut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		443FE3621A3260EF00E9671A /* fon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fon.mp3; sourceTree = "<group>"; };
+		445C894F1A30A7140025EA80 /* Arkanoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arkanoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		445C89531A30A7140025EA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445C89681A30A7140025EA80 /* ArkanoidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArkanoidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		445C89791A30A7290025EA80 /* assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = assets.atlas; sourceTree = "<group>"; };
+		445C897B1A30A7290025EA80 /* bg@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x~ipad.png"; sourceTree = "<group>"; };
+		445C897C1A30A7290025EA80 /* bg@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x~iphone.png"; sourceTree = "<group>"; };
+		445C897D1A30A7290025EA80 /* bg~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg~ipad.png"; sourceTree = "<group>"; };
+		445C897E1A30A7290025EA80 /* bg~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg~iphone.png"; sourceTree = "<group>"; };
+		44BB527F1A32082C0095541D /* paddleRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddleRed.png; sourceTree = "<group>"; };
+		44BB52811A32083A0095541D /* rectRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rectRed.png; sourceTree = "<group>"; };
+		44BB52831A3208450095541D /* ballBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballBlue.png; sourceTree = "<group>"; };
+		44BB52851A3208E00095541D /* paddleBlu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddleBlu.png; sourceTree = "<group>"; };
+		44BB52861A3208E00095541D /* rectBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rectBlue.png; sourceTree = "<group>"; };
+		44BB52871A3208E00095541D /* rectGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rectGreen.png; sourceTree = "<group>"; };
+		44BB52881A3208E00095541D /* rectPurp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rectPurp.png; sourceTree = "<group>"; };
+		44BB52891A3208E00095541D /* rectYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rectYellow.png; sourceTree = "<group>"; };
+		44BB528F1A320C230095541D /* backgnd6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgnd6.png; sourceTree = "<group>"; };
+		44BB52911A320CD00095541D /* backgnd3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgnd3.png; sourceTree = "<group>"; };
+		44BB52931A320D2E0095541D /* backgnd2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgnd2.png; sourceTree = "<group>"; };
+		44BB52941A320D2E0095541D /* backgnd4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgnd4.png; sourceTree = "<group>"; };
+		44BB52951A320D2E0095541D /* backgnd5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgnd5.png; sourceTree = "<group>"; };
+		44BB529F1A3223DB0095541D /* mback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mback.jpg; sourceTree = "<group>"; };
+		44F058051B92083500D4A440 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Arkanoid/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		44F058081B92083500D4A440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		44F0580A1B92083500D4A440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		44F0580B1B92083500D4A440 /* ChooseLevelScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChooseLevelScene.swift; path = Arkanoid/ChooseLevelScene.swift; sourceTree = SOURCE_ROOT; };
+		44F0580C1B92083500D4A440 /* FirstLevelScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstLevelScene.swift; path = Arkanoid/FirstLevelScene.swift; sourceTree = SOURCE_ROOT; };
+		44F0580D1B92083500D4A440 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = Arkanoid/GameScene.sks; sourceTree = SOURCE_ROOT; };
+		44F0580E1B92083500D4A440 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = Arkanoid/GameScene.swift; sourceTree = SOURCE_ROOT; };
+		44F0580F1B92083500D4A440 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = Arkanoid/GameViewController.swift; sourceTree = SOURCE_ROOT; };
+		44F058101B92083500D4A440 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Arkanoid/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		44F058111B92083500D4A440 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Arkanoid/Info.plist; sourceTree = SOURCE_ROOT; };
+		44F058121B92083500D4A440 /* SecondLevelScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondLevelScene.swift; path = Arkanoid/SecondLevelScene.swift; sourceTree = SOURCE_ROOT; };
+		44F058131B92083500D4A440 /* SKEndScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKEndScene.swift; path = Arkanoid/SKEndScene.swift; sourceTree = SOURCE_ROOT; };
+		44F058141B92083500D4A440 /* TemplateLevelScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TemplateLevelScene.swift; path = Arkanoid/TemplateLevelScene.swift; sourceTree = SOURCE_ROOT; };
+		44F058151B92083500D4A440 /* TransToFirstLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransToFirstLevel.swift; path = Arkanoid/TransToFirstLevel.swift; sourceTree = SOURCE_ROOT; };
+		44F058161B92083500D4A440 /* TransToSecondLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransToSecondLevel.swift; path = Arkanoid/TransToSecondLevel.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		445C894C1A30A7140025EA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445C89651A30A7140025EA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		445C89461A30A7140025EA80 = {
+			isa = PBXGroup;
+			children = (
+				445C89511A30A7140025EA80 /* Arkanoid */,
+				445C89501A30A7140025EA80 /* Products */,
+				445C89781A30A7290025EA80 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		445C89501A30A7140025EA80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				445C894F1A30A7140025EA80 /* Arkanoid.app */,
+				445C89681A30A7140025EA80 /* ArkanoidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		445C89511A30A7140025EA80 /* Arkanoid */ = {
+			isa = PBXGroup;
+			children = (
+				44F058051B92083500D4A440 /* AppDelegate.swift */,
+				44F058061B92083500D4A440 /* Base.lproj */,
+				44F0580B1B92083500D4A440 /* ChooseLevelScene.swift */,
+				44F0580C1B92083500D4A440 /* FirstLevelScene.swift */,
+				44F0580D1B92083500D4A440 /* GameScene.sks */,
+				44F0580E1B92083500D4A440 /* GameScene.swift */,
+				44F0580F1B92083500D4A440 /* GameViewController.swift */,
+				44F058101B92083500D4A440 /* Images.xcassets */,
+				44F058111B92083500D4A440 /* Info.plist */,
+				44F058121B92083500D4A440 /* SecondLevelScene.swift */,
+				44F058131B92083500D4A440 /* SKEndScene.swift */,
+				44F058141B92083500D4A440 /* TemplateLevelScene.swift */,
+				44F058151B92083500D4A440 /* TransToFirstLevel.swift */,
+				44F058161B92083500D4A440 /* TransToSecondLevel.swift */,
+				445C89521A30A7140025EA80 /* Supporting Files */,
+			);
+			name = Arkanoid;
+			path = arctut;
+			sourceTree = "<group>";
+		};
+		445C89521A30A7140025EA80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				445C89531A30A7140025EA80 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		445C89781A30A7290025EA80 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				443FE3621A3260EF00E9671A /* fon.mp3 */,
+				44BB529F1A3223DB0095541D /* mback.jpg */,
+				44BB52931A320D2E0095541D /* backgnd2.png */,
+				44BB52941A320D2E0095541D /* backgnd4.png */,
+				44BB52951A320D2E0095541D /* backgnd5.png */,
+				44BB52911A320CD00095541D /* backgnd3.png */,
+				44BB528F1A320C230095541D /* backgnd6.png */,
+				44BB52851A3208E00095541D /* paddleBlu.png */,
+				44BB52861A3208E00095541D /* rectBlue.png */,
+				44BB52871A3208E00095541D /* rectGreen.png */,
+				44BB52881A3208E00095541D /* rectPurp.png */,
+				44BB52891A3208E00095541D /* rectYellow.png */,
+				44BB52831A3208450095541D /* ballBlue.png */,
+				44BB52811A32083A0095541D /* rectRed.png */,
+				44BB527F1A32082C0095541D /* paddleRed.png */,
+				445C89791A30A7290025EA80 /* assets.atlas */,
+				445C897A1A30A7290025EA80 /* backgrounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		445C897A1A30A7290025EA80 /* backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				445C897B1A30A7290025EA80 /* bg@2x~ipad.png */,
+				445C897C1A30A7290025EA80 /* bg@2x~iphone.png */,
+				445C897D1A30A7290025EA80 /* bg~ipad.png */,
+				445C897E1A30A7290025EA80 /* bg~iphone.png */,
+			);
+			path = backgrounds;
+			sourceTree = "<group>";
+		};
+		44F058061B92083500D4A440 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				44F058071B92083500D4A440 /* LaunchScreen.xib */,
+				44F058091B92083500D4A440 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = Arkanoid/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		445C894E1A30A7140025EA80 /* Arkanoid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445C89721A30A7140025EA80 /* Build configuration list for PBXNativeTarget "Arkanoid" */;
+			buildPhases = (
+				445C894B1A30A7140025EA80 /* Sources */,
+				445C894C1A30A7140025EA80 /* Frameworks */,
+				445C894D1A30A7140025EA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arkanoid;
+			productName = arctut;
+			productReference = 445C894F1A30A7140025EA80 /* Arkanoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		445C89671A30A7140025EA80 /* ArkanoidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445C89751A30A7140025EA80 /* Build configuration list for PBXNativeTarget "ArkanoidTests" */;
+			buildPhases = (
+				445C89641A30A7140025EA80 /* Sources */,
+				445C89651A30A7140025EA80 /* Frameworks */,
+				445C89661A30A7140025EA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				445C896A1A30A7140025EA80 /* PBXTargetDependency */,
+			);
+			name = ArkanoidTests;
+			productName = arctutTests;
+			productReference = 445C89681A30A7140025EA80 /* ArkanoidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		445C89471A30A7140025EA80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Руслан";
+				TargetAttributes = {
+					445C894E1A30A7140025EA80 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					445C89671A30A7140025EA80 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 445C894E1A30A7140025EA80;
+					};
+				};
+			};
+			buildConfigurationList = 445C894A1A30A7140025EA80 /* Build configuration list for PBXProject "Arkanoid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 445C89461A30A7140025EA80;
+			productRefGroup = 445C89501A30A7140025EA80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				445C894E1A30A7140025EA80 /* Arkanoid */,
+				445C89671A30A7140025EA80 /* ArkanoidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		445C894D1A30A7140025EA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443FE3631A3260EF00E9671A /* fon.mp3 in Resources */,
+				44BB52801A32082C0095541D /* paddleRed.png in Resources */,
+				44BB528B1A3208E00095541D /* rectBlue.png in Resources */,
+				44BB528D1A3208E00095541D /* rectPurp.png in Resources */,
+				44BB52901A320C230095541D /* backgnd6.png in Resources */,
+				44BB52921A320CD00095541D /* backgnd3.png in Resources */,
+				44F058191B92083500D4A440 /* Main.storyboard in Resources */,
+				44F0581F1B92083500D4A440 /* Images.xcassets in Resources */,
+				445C89811A30A7290025EA80 /* bg@2x~iphone.png in Resources */,
+				44BB528A1A3208E00095541D /* paddleBlu.png in Resources */,
+				44F058181B92083500D4A440 /* LaunchScreen.xib in Resources */,
+				445C89821A30A7290025EA80 /* bg~ipad.png in Resources */,
+				44BB52A01A3223DB0095541D /* mback.jpg in Resources */,
+				44F058201B92083500D4A440 /* Info.plist in Resources */,
+				445C897F1A30A7290025EA80 /* assets.atlas in Resources */,
+				44F0581C1B92083500D4A440 /* GameScene.sks in Resources */,
+				44BB52981A320D2E0095541D /* backgnd5.png in Resources */,
+				445C89801A30A7290025EA80 /* bg@2x~ipad.png in Resources */,
+				44BB52821A32083A0095541D /* rectRed.png in Resources */,
+				44BB52971A320D2E0095541D /* backgnd4.png in Resources */,
+				44BB52961A320D2E0095541D /* backgnd2.png in Resources */,
+				44BB528C1A3208E00095541D /* rectGreen.png in Resources */,
+				44BB52841A3208450095541D /* ballBlue.png in Resources */,
+				445C89831A30A7290025EA80 /* bg~iphone.png in Resources */,
+				44BB528E1A3208E00095541D /* rectYellow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445C89661A30A7140025EA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		445C894B1A30A7140025EA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F058171B92083500D4A440 /* AppDelegate.swift in Sources */,
+				44F058251B92083500D4A440 /* TransToSecondLevel.swift in Sources */,
+				44F058231B92083500D4A440 /* TemplateLevelScene.swift in Sources */,
+				44F058211B92083500D4A440 /* SecondLevelScene.swift in Sources */,
+				44F058241B92083500D4A440 /* TransToFirstLevel.swift in Sources */,
+				44F0581B1B92083500D4A440 /* FirstLevelScene.swift in Sources */,
+				44F0581A1B92083500D4A440 /* ChooseLevelScene.swift in Sources */,
+				44F0581E1B92083500D4A440 /* GameViewController.swift in Sources */,
+				44F0581D1B92083500D4A440 /* GameScene.swift in Sources */,
+				44F058221B92083500D4A440 /* SKEndScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445C89641A30A7140025EA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		445C896A1A30A7140025EA80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 445C894E1A30A7140025EA80 /* Arkanoid */;
+			targetProxy = 445C89691A30A7140025EA80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44F058071B92083500D4A440 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44F058081B92083500D4A440 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		44F058091B92083500D4A440 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44F0580A1B92083500D4A440 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		445C89701A30A7140025EA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		445C89711A30A7140025EA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		445C89731A30A7140025EA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Arkanoid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Arkanoid;
+			};
+			name = Debug;
+		};
+		445C89741A30A7140025EA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Arkanoid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Arkanoid;
+			};
+			name = Release;
+		};
+		445C89761A30A7140025EA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = arctutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ArkanoidTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arctut.app/arctut";
+			};
+			name = Debug;
+		};
+		445C89771A30A7140025EA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = arctutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ArkanoidTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arctut.app/arctut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		445C894A1A30A7140025EA80 /* Build configuration list for PBXProject "Arkanoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445C89701A30A7140025EA80 /* Debug */,
+				445C89711A30A7140025EA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445C89721A30A7140025EA80 /* Build configuration list for PBXNativeTarget "Arkanoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445C89731A30A7140025EA80 /* Debug */,
+				445C89741A30A7140025EA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445C89751A30A7140025EA80 /* Build configuration list for PBXNativeTarget "ArkanoidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445C89761A30A7140025EA80 /* Debug */,
+				445C89771A30A7140025EA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 445C89471A30A7140025EA80 /* Project object */;
+}
